@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  description: Install nginx org
+  author: Marcelo Arakaki
+  company: StackStorm
+  license: Apache 2.0
+  min_ansible_version: 2.5
+  tags: nginx
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+    - name: EL
+      versions:
+        - 7
+        - 8
+  galaxy_tags:
+    - web
+    - nginx
